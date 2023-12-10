@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Artist & Minimalist</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 1em;
+            background-color: brown;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h1, h2 {
+            color: white;
+        }
+
+        .bio {
+            text-align: center;
+        }
+
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .tshirt {
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid white;
+            border-radius: 5px;
+            max-width: 300px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <h2>Artist & Minimalist</h2>
+    </header>
+
+    <section class="bio">
+        <p>As an artist, I find beauty in simplicity. Explore my minimalist creations that speak volumes in their simplicity.</p>
+    </section>
+
+    <section class="catalog">
+        <div class="tshirt">
+            <img src="tshirt1.jpg" alt="T-Shirt Design 1">
+            <h3>T-Shirt Title 1</h3>
+            <p>Short description of the design.</p>
+            <p>Price: $XX.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="tshirt">
+            <img src="tshirt2.jpg" alt="T-Shirt Design 2">
+            <h3>T-Shirt Title 2</h3>
+            <p>Short description of the design.</p>
+            <p>Price: $XX.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more t-shirt entries as needed -->
+    </section>
+
+    <footer>
+        <p>Contact: your.email@example.com | Follow me on Instagram: @your_instagram</p>
+    </footer>
+
+</body>
+</html>
